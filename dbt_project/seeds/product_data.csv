@@ -1,0 +1,16 @@
+product_id,product_name,category,price,stock_quantity,supplier,launch_date,is_active
+101,Laptop Pro 15,Electronics,1299.99,45,TechCorp,2024-01-10,true
+102,Wireless Mouse,Accessories,29.99,150,PeripheralsCo,2024-02-15,true
+103,USB-C Cable,Accessories,15.50,200,CableWorks,2024-01-20,true
+104,Mechanical Keyboard,Accessories,89.99,78,KeyMaster,2024-03-01,true
+105,27" Monitor,Electronics,349.99,32,DisplayTech,2024-02-05,true
+106,Laptop Backpack,Bags,59.99,95,BagMakers,2024-01-15,true
+107,Webcam HD,Electronics,79.99,60,CamTech,2024-02-20,true
+108,Desk Lamp LED,Furniture,42.50,120,LightingPro,2024-01-25,true
+109,Ergonomic Chair,Furniture,299.99,25,ComfortSeats,2024-03-10,true
+110,External SSD 1TB,Storage,119.99,88,StoragePlus,2024-02-28,true
+111,Smartphone Stand,Accessories,19.99,175,Standify,2024-01-30,true
+112,Bluetooth Headset,Electronics,149.99,55,AudioMax,2024-03-05,true
+113,Cable Organizer,Accessories,12.99,250,OrganizePro,2024-02-10,false
+114,Gaming Mouse Pad,Accessories,24.99,140,GamerGear,2024-01-18,true
+115,Portable Charger,Electronics,45.99,110,PowerBank Inc,2024-02-22,true
