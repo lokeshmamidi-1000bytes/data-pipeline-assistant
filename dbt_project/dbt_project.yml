@@ -1,12 +1,12 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'oracle_to_dbt'
+name: 'tasty_bytes'
 version: '1.0.0'
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'oracle_to_dbt'
+profile: 'tasty_bytes'
 
 # These configurations specify where dbt should look for different types of files.
 model-paths: ["models"]

@@ -1,15 +1,11 @@
-oracle_to_dbt:
+tasty_bytes:
   target: dev
   outputs:
     dev:
       type: snowflake
-      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USER') }}"
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
-      role: "{{ env_var('SNOWFLAKE_ROLE', 'TRANSFORMER') }}"
-      database: "{{ env_var('SNOWFLAKE_DATABASE', 'ANALYTICS_DEV') }}"
-      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'COMPUTE_WH') }}"
-      schema: "{{ env_var('SNOWFLAKE_SCHEMA', 'DBT_DEV') }}"
-      threads: 4
-      client_session_keep_alive: false
-      query_tag: "dbt_dev"
+      account: 'not needed'
+      user: 'not needed'
+      role: accountadmin
+      database: dbt
+      schema: dev
+      warehouse: COMPUTE_WH
